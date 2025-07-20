@@ -9,47 +9,54 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #f5f5f5;
+            background-color: #F5F0E8;
+            color: #000000;
         }
         .container {
             max-width: 1400px;
             margin: 0 auto;
-            background-color: white;
+            background-color: #FFFFFF;
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         h1 {
-            color: #2c3e50;
+            color: #000000;
             text-align: center;
             margin-bottom: 10px;
+            font-weight: 600;
         }
         .subtitle {
             text-align: center;
-            color: #7f8c8d;
+            color: #666666;
             margin-bottom: 30px;
         }
         .tabs {
             display: flex;
-            border-bottom: 2px solid #e0e0e0;
+            border-bottom: 2px solid #8B9282;
             margin-bottom: 30px;
         }
         .tab {
             padding: 10px 20px;
             cursor: pointer;
-            background-color: #f8f9fa;
-            border: 1px solid #e0e0e0;
+            background-color: #F5F0E8;
+            border: 1px solid #8B9282;
             border-bottom: none;
             margin-right: 5px;
             border-radius: 5px 5px 0 0;
             transition: all 0.3s;
+            color: #000000;
+        }
+        .tab:hover {
+            background-color: #8B9282;
+            color: #FFFFFF;
         }
         .tab.active {
-            background-color: white;
-            border-bottom: 2px solid white;
+            background-color: #8B9282;
+            border-bottom: 2px solid #8B9282;
             margin-bottom: -2px;
             font-weight: bold;
-            color: #2c3e50;
+            color: #FFFFFF;
         }
         .tab-content {
             display: none;
@@ -61,8 +68,8 @@
             margin-bottom: 40px;
         }
         .section-header {
-            background-color: #3498db;
-            color: white;
+            background-color: #8B9282;
+            color: #FFFFFF;
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 20px;
@@ -70,6 +77,7 @@
         .section-header h2 {
             margin: 0;
             font-size: 1.4em;
+            font-weight: 600;
         }
         .section-description {
             font-size: 0.9em;
@@ -79,14 +87,14 @@
         .question-group {
             margin-bottom: 25px;
             padding: 20px;
-            background-color: #f8f9fa;
+            background-color: #F5F0E8;
             border-radius: 8px;
-            border: 1px solid #e0e0e0;
+            border: 1px solid #8B9282;
         }
         .question {
             font-weight: 500;
             margin-bottom: 10px;
-            color: #2c3e50;
+            color: #000000;
         }
         .maturity-scale {
             display: flex;
@@ -96,21 +104,21 @@
         .maturity-option {
             flex: 1;
             padding: 10px;
-            border: 2px solid #e0e0e0;
+            border: 2px solid #8B9282;
             border-radius: 5px;
             cursor: pointer;
             text-align: center;
             transition: all 0.3s;
-            background-color: white;
+            background-color: #FFFFFF;
         }
         .maturity-option:hover {
-            border-color: #3498db;
-            background-color: #f0f8ff;
+            border-color: #B85450;
+            background-color: #FFF5F5;
         }
         .maturity-option.selected {
-            border-color: #3498db;
-            background-color: #3498db;
-            color: white;
+            border-color: #B85450;
+            background-color: #B85450;
+            color: #FFFFFF;
         }
         .maturity-option .level {
             font-weight: bold;
@@ -121,8 +129,8 @@
             font-size: 0.8em;
         }
         .low-maturity-insight {
-            background-color: #fff3cd;
-            border: 1px solid #ffeeba;
+            background-color: #FFF5F5;
+            border: 1px solid #B85450;
             border-radius: 5px;
             padding: 15px;
             margin-top: 10px;
@@ -133,18 +141,18 @@
         }
         .insight-header {
             font-weight: bold;
-            color: #856404;
+            color: #B85450;
             margin-bottom: 5px;
         }
         .insight-text {
-            color: #856404;
+            color: #666666;
             font-size: 0.9em;
         }
         .results-section {
             margin-top: 40px;
         }
         .score-card {
-            background-color: #f8f9fa;
+            background-color: #F5F0E8;
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 20px;
@@ -156,11 +164,11 @@
         .score-display {
             font-size: 4em;
             font-weight: bold;
-            color: #3498db;
+            color: #B85450;
         }
         .maturity-level {
             font-size: 1.5em;
-            color: #2c3e50;
+            color: #000000;
             margin-top: 10px;
         }
         .dimension-scores {
@@ -169,32 +177,33 @@
             gap: 20px;
         }
         .dimension-card {
-            background-color: white;
+            background-color: #FFFFFF;
             padding: 20px;
             border-radius: 8px;
             text-align: center;
-            border: 1px solid #e0e0e0;
+            border: 1px solid #8B9282;
         }
         .dimension-name {
             font-weight: bold;
             margin-bottom: 10px;
-            color: #2c3e50;
+            color: #000000;
         }
         .dimension-score {
             font-size: 2em;
-            color: #3498db;
+            color: #B85450;
         }
         .progress-bar {
             width: 100%;
             height: 20px;
-            background-color: #e0e0e0;
+            background-color: #F5F0E8;
             border-radius: 10px;
             overflow: hidden;
             margin-top: 10px;
+            border: 1px solid #8B9282;
         }
         .progress {
             height: 100%;
-            background-color: #3498db;
+            background-color: #B85450;
             transition: width 0.5s ease;
         }
         .export-section {
@@ -202,27 +211,31 @@
             margin-top: 30px;
         }
         .export-btn {
-            background-color: #27ae60;
-            color: white;
+            background-color: #B85450;
+            color: #FFFFFF;
             padding: 12px 30px;
             border: none;
-            border-radius: 5px;
+            border-radius: 50px;
             font-size: 1.1em;
             cursor: pointer;
-            transition: background-color 0.3s;
+            transition: all 0.3s;
+            font-weight: 600;
         }
         .export-btn:hover {
-            background-color: #219a52;
+            background-color: #A04540;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(184, 84, 80, 0.3);
         }
         .instructions {
-            background-color: #e3f2fd;
+            background-color: #F5F0E8;
             padding: 20px;
             border-radius: 8px;
             margin-bottom: 30px;
+            border: 1px solid #8B9282;
         }
         .instructions h3 {
             margin-top: 0;
-            color: #1976d2;
+            color: #000000;
         }
         .instructions ul {
             margin: 10px 0;
